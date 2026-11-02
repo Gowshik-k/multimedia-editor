@@ -1,0 +1,285 @@
+{
+  "users": [
+    {
+      "_id": "6d5f3da5-f536-47fd-a0c3-7cc13c376422",
+      "username": "Creative Director",
+      "email": "demo@omnimedia.studio",
+      "password": "$2a$10$dz6ylgcD3qNXnTBUxBFoSeN7xHPnLxq1Wd5gV3B/wwptx/epfH1tS",
+      "role": "creator",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=CreativeDirector",
+      "createdAt": "2026-11-02T05:03:39.416Z"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "f0e6dd82-7172-4076-8689-f61fc6e5397a",
+      "title": "Minimalist Poster Project",
+      "description": "Interactive image composition with text overlays and adjustments.",
+      "type": "image",
+      "owner": "6d5f3da5-f536-47fd-a0c3-7cc13c376422",
+      "collaborators": [],
+      "thumbnail": "/samples/sample-image.jpg",
+      "state": {
+        "imageSrc": "/samples/sample-image.jpg",
+        "originalDimensions": {
+          "width": 1280,
+          "height": 720
+        },
+        "adjustments": {
+          "brightness": 5,
+          "contrast": 1.1,
+          "saturation": 1.15,
+          "blur": 0,
+          "grayscale": 0,
+          "sepia": 0,
+          "invert": 0,
+          "vignette": 15
+        },
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 720,
+          "aspect": "free"
+        },
+        "layers": [
+          {
+            "id": "layer-text-1",
+            "type": "text",
+            "text": "CREATIVE WORKFLOW",
+            "x": 180,
+            "y": 220,
+            "fontSize": 48,
+            "fontWeight": "700",
+            "fontFamily": "Inter",
+            "color": "#ffffff",
+            "backgroundColor": "rgba(0,0,0,0.6)",
+            "padding": 12,
+            "borderRadius": 6
+          },
+          {
+            "id": "layer-text-2",
+            "type": "text",
+            "text": "Unified Real-Time Studio",
+            "x": 180,
+            "y": 310,
+            "fontSize": 24,
+            "fontWeight": "400",
+            "fontFamily": "Inter",
+            "color": "#93c5fd",
+            "backgroundColor": "transparent",
+            "padding": 6,
+            "borderRadius": 4
+          }
+        ]
+      },
+      "versions": [],
+      "activityLog": [
+        {
+          "id": "26d6779f-e216-4c15-9444-a65d0e87c0dd",
+          "user": "System",
+          "action": "Project created",
+          "timestamp": "2026-11-02T05:03:39.423Z"
+        }
+      ],
+      "isPublic": true,
+      "createdAt": "2026-11-02T05:03:39.423Z",
+      "updatedAt": "2026-11-02T05:03:39.423Z"
+    },
+    {
+      "_id": "47c1d530-7578-471a-9405-64c0f140bb45",
+      "title": "Podcast Intro Trim",
+      "description": "Audio trimming, gain level adjustment, and waveform inspection.",
+      "type": "audio",
+      "owner": "6d5f3da5-f536-47fd-a0c3-7cc13c376422",
+      "collaborators": [],
+      "thumbnail": "",
+      "state": {
+        "audioSrc": "/samples/sample-audio.mp3",
+        "originalDuration": 8,
+        "trim": {
+          "start": 1,
+          "end": 6.5
+        },
+        "volume": 1.25,
+        "pan": 0,
+        "playbackSpeed": 1,
+        "mute": false,
+        "loop": false,
+        "markers": [
+          {
+            "id": "marker-1",
+            "time": 1,
+            "label": "Intro In"
+          },
+          {
+            "id": "marker-2",
+            "time": 4,
+            "label": "Voice Start"
+          },
+          {
+            "id": "marker-3",
+            "time": 6.5,
+            "label": "Fade Out"
+          }
+        ]
+      },
+      "versions": [],
+      "activityLog": [
+        {
+          "id": "60f2c567-019b-42fa-95a9-510cdf17ee39",
+          "user": "System",
+          "action": "Project created",
+          "timestamp": "2026-11-02T05:03:39.424Z"
+        }
+      ],
+      "isPublic": true,
+      "createdAt": "2026-11-02T05:03:39.424Z",
+      "updatedAt": "2026-11-02T05:03:39.424Z"
+    },
+    {
+      "_id": "55f22e32-6cee-44dc-969a-94e395008a0e",
+      "title": "Cinematic Teaser Montage",
+      "description": "Multi-track timeline with clip trimming, text overlays, and audio track.",
+      "type": "video",
+      "owner": "6d5f3da5-f536-47fd-a0c3-7cc13c376422",
+      "collaborators": [],
+      "thumbnail": "/samples/sample-image.jpg",
+      "state": {
+        "duration": 10,
+        "resolution": {
+          "width": 1280,
+          "height": 720
+        },
+        "fps": 30,
+        "tracks": [
+          {
+            "id": "track-video-1",
+            "name": "Video Track 1",
+            "type": "video",
+            "clips": [
+              {
+                "id": "clip-v1",
+                "name": "Intro Pattern",
+                "src": "/samples/sample-video.mp4",
+                "filePath": "C:\\Users\\Gowsi\\Documenten\\academics\\final_project\\multimedia-editor\\server\\samples\\sample-video.mp4",
+                "start": 0,
+                "duration": 5,
+                "trimStart": 0,
+                "trimEnd": 5,
+                "volume": 1,
+                "color": "#3b82f6"
+              },
+              {
+                "id": "clip-v2",
+                "name": "Outro Segment",
+                "src": "/samples/sample-video.mp4",
+                "filePath": "C:\\Users\\Gowsi\\Documenten\\academics\\final_project\\multimedia-editor\\server\\samples\\sample-video.mp4",
+                "start": 5,
+                "duration": 5,
+                "trimStart": 1,
+                "trimEnd": 6,
+                "volume": 0.8,
+                "color": "#8b5cf6"
+              }
+            ]
+          },
+          {
+            "id": "track-text-1",
+            "name": "Text & Titles",
+            "type": "text",
+            "clips": [
+              {
+                "id": "clip-t1",
+                "name": "Title Card",
+                "text": "OMNIMEDIA 2026",
+                "start": 0.5,
+                "duration": 3.5,
+                "fontSize": 44,
+                "color": "#ffffff",
+                "position": "center"
+              }
+            ]
+          },
+          {
+            "id": "track-audio-1",
+            "name": "BGM Track",
+            "type": "audio",
+            "clips": [
+              {
+                "id": "clip-a1",
+                "name": "Background Theme",
+                "src": "/samples/sample-audio.mp3",
+                "filePath": "C:\\Users\\Gowsi\\Documenten\\academics\\final_project\\multimedia-editor\\server\\samples\\sample-audio.mp3",
+                "start": 0,
+                "duration": 8,
+                "volume": 0.7,
+                "color": "#10b981"
+              }
+            ]
+          }
+        ]
+      },
+      "versions": [],
+      "activityLog": [
+        {
+          "id": "2dcdfb27-3c71-4058-b4f5-1a2e71a24f4c",
+          "user": "System",
+          "action": "Project created",
+          "timestamp": "2026-11-02T05:03:39.424Z"
+        }
+      ],
+      "isPublic": true,
+      "createdAt": "2026-11-02T05:03:39.424Z",
+      "updatedAt": "2026-11-02T05:03:39.424Z"
+    }
+  ],
+  "assets": [
+    {
+      "_id": "dc46baa7-91e8-48e5-aea4-1ab58ece7ba9",
+      "name": "Nature Horizon (Sample Image)",
+      "originalName": "sample-image.jpg",
+      "type": "image",
+      "url": "/samples/sample-image.jpg",
+      "filePath": "C:\\Users\\Gowsi\\Documenten\\academics\\final_project\\multimedia-editor\\server\\samples\\sample-image.jpg",
+      "size": 34920,
+      "mimeType": "image/jpeg",
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "isSample": true,
+      "createdAt": "2026-11-02T05:03:39.420Z"
+    },
+    {
+      "_id": "cc4599f1-e627-419c-9a70-8c2cedc24ffc",
+      "name": "Melodic Chime (Sample Audio)",
+      "originalName": "sample-audio.mp3",
+      "type": "audio",
+      "url": "/samples/sample-audio.mp3",
+      "filePath": "C:\\Users\\Gowsi\\Documenten\\academics\\final_project\\multimedia-editor\\server\\samples\\sample-audio.mp3",
+      "size": 97010,
+      "mimeType": "audio/mpeg",
+      "duration": 8,
+      "isSample": true,
+      "createdAt": "2026-11-02T05:03:39.421Z"
+    },
+    {
+      "_id": "46bbb6ad-60bd-4d69-b283-ee88e24a790b",
+      "name": "Dynamic Motion Test (Sample Video)",
+      "originalName": "sample-video.mp4",
+      "type": "video",
+      "url": "/samples/sample-video.mp4",
+      "filePath": "C:\\Users\\Gowsi\\Documenten\\academics\\final_project\\multimedia-editor\\server\\samples\\sample-video.mp4",
+      "size": 167839,
+      "mimeType": "video/mp4",
+      "duration": 6,
+      "dimensions": {
+        "width": 1280,
+        "height": 720
+      },
+      "isSample": true,
+      "createdAt": "2026-11-02T05:03:39.422Z"
+    }
+  ]
+}

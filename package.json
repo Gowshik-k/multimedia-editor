@@ -1,0 +1,14 @@
+{
+  "name": "multimedia-editor-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unified Multimedia Editing System with Real-Time Collaboration and Synchronization (MERN + Socket.IO + FFmpeg)",
+  "scripts": {
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "node server/server.js",
+    "dev:server": "npm --prefix server dev",
+    "dev:client": "npm --prefix client dev",
+    "dev": "node server/server.js"
+  }
+}
