@@ -18,8 +18,9 @@ export function SocketProvider({ children }) {
   const onRemoteStateUpdateRef = useRef(null);
 
   useEffect(() => {
-    // Connect to server (using relative path or current host)
-    const socket = io({
+    // Connect to server (using configured environment URL or relative host)
+    const socketUrl = import.meta.env.VITE_SOCKET_URL || '';
+    const socket = io(socketUrl, {
       transports: ['websocket', 'polling'],
       reconnectionAttempts: 10,
       reconnectionDelay: 1000

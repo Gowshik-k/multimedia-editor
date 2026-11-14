@@ -98,6 +98,31 @@ Run the backend server and Vite dev server simultaneously:
 
 ---
 
+## ⚙️ Environment Variables (.env)
+
+Both `server/` and `client/` have dedicated `.env` and `.env.example` configuration files:
+
+### Backend (`server/.env`)
+```ini
+PORT=5000
+NODE_ENV=development
+MONGODB_URI=mongodb://127.0.0.1:27017/multimedia_editor
+MONGO_PORT=27017
+JWT_SECRET=omnimedia_jwt_secret_key_2026_production_ready_hash_token
+CORS_ORIGIN=http://localhost:5173,http://localhost:5000
+MAX_UPLOAD_SIZE_MB=100
+```
+
+### Frontend (`client/.env`)
+```ini
+VITE_API_BASE_URL=/api
+VITE_SOCKET_URL=http://localhost:5000
+VITE_APP_NAME=OmniMedia Studio
+VITE_APP_VERSION=1.0.0
+```
+
+---
+
 ## 👥 How to Test Real-Time Collaboration
 
 1. Open **[http://localhost:5000](http://localhost:5000)** in your primary browser.
