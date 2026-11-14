@@ -8,6 +8,24 @@
       "role": "creator",
       "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=CreativeDirector",
       "createdAt": "2026-11-02T05:03:39.416Z"
+    },
+    {
+      "_id": "6f70bbcd-08bc-4784-b290-9d6b79dd9397",
+      "username": "Guest-9202",
+      "email": "demo_1793863429540_234@omnimedia.studio",
+      "password": "$2a$10$TTgaIq.7rA2U/8cFDA572.cqkeSqc.Gn7dE41moJcaYAYL58ZQVHy",
+      "role": "creator",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Guest-9202",
+      "createdAt": "2026-11-05T07:23:49.786Z"
+    },
+    {
+      "_id": "83e05354-daa9-4787-a512-3f3a31581770",
+      "username": "Guest-7355",
+      "email": "demo_1793863429647_902@omnimedia.studio",
+      "password": "$2a$10$N0xo9t3s82IByfVqBfrmlu.qn6UMoRkZeZ3SYRgg9PwcTRqvpJWX2",
+      "role": "creator",
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Guest-7355",
+      "createdAt": "2026-11-05T07:23:49.825Z"
     }
   ],
   "projects": [
